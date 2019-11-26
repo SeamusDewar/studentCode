@@ -1,0 +1,26 @@
+<html>
+  <head>
+  	<script>
+
+	let num = 1;
+	
+	function click1()
+	{
+		let img = document.getElementById("image");
+		num++;
+		num > 6 ? num = 1: num = num;
+		img.src = "http://www.psychicsoftware.com/ct1113/banner-image-" + num + ".png";
+		//
+	}
+</script>
+  </head>
+  
+    <body>
+	
+	<img src="http://www.psychicsoftware.com/ct1113/banner-image-1.png" id="image" onclick="click1();">
+	
+	<h3>Click Picture</h3>
+	</body>
+	
+
+</html>
